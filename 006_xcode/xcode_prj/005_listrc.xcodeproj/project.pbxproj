@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5027D7A2D8F347FA96823ADE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13EAA62E90B24CE2A35BEF0F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0C9EDA1D3DA7E2089579B7F3 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		8F15A2B9A89C4D74AD09C1F5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B073AF97CCCC4C248E661E22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FB5194FB6E03910AFE478CE1 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				154B6ECDBF3D4D40839F052E /* PBXTargetDependency */,
+				A10C207BDBC94571AFDA73E4 /* PBXTargetDependency */,
+				E56B81E742634C209A35056A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0ECCD5CA12E448DC8807F5C8 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/main.cpp */ = {isa = PBXBuildFile; fileRef = 0B1CBF13AC404116AB3ACFFA /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/main.cpp */; };
+		4103D3162AC9431EA2E17F6C /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include/MyLib.h */ = {isa = PBXBuildFile; fileRef = 0BD21BA7B1A74241982C194E /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include/MyLib.h */; };
+		751F5053CD9C4398B084B692 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/src/MathLib.cpp */ = {isa = PBXBuildFile; fileRef = E2054757E698492297EFD8CD /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/src/MathLib.cpp */; };
+		A91853DC85E14B8EB21ECF61 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/pch.h */ = {isa = PBXBuildFile; fileRef = A6AD5E8DDC654A08B5FB2779 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/pch.h */; };
+		C0354B53FDA44A5894245C6E /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 540690A8E79C4BC6A892A2D8 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */; };
+		E7207E870FEC439FA59F6BC7 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7EA0C9DA765F4CCA866C13A5 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0F220A8FFF924A70AB260D24 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		236997B5E9FB41F5B751B06C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		48032D4367D545F991D5FD4E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7FD6007FAA7241F283F33F70 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEEF440967247EBBAA2A488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241D90DD04D64FA69874E010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF7698D875B4C6BA2C7D8C5;
+			remoteInfo = MyLib;
+		};
+		75D62C9FD26748D98E922278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241D90DD04D64FA69874E010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5027D7A2D8F347FA96823ADE;
+			remoteInfo = ZERO_CHECK;
+		};
+		75E80028314B4A648987524E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241D90DD04D64FA69874E010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325CB5F2E5A64DFFB163671C;
+			remoteInfo = MyApp;
+		};
+		89C6779C156045E291E65B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241D90DD04D64FA69874E010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5027D7A2D8F347FA96823ADE;
+			remoteInfo = ZERO_CHECK;
+		};
+		EDF639EF6E604D8488D8A7D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241D90DD04D64FA69874E010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF7698D875B4C6BA2C7D8C5;
+			remoteInfo = MyLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1CBF13AC404116AB3ACFFA /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = MyApp/main.cpp; sourceTree = SOURCE_ROOT; };
+		0BD21BA7B1A74241982C194E /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include/MyLib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = MyLib.h; path = MyLib/include/MyLib.h; sourceTree = SOURCE_ROOT; };
+		25412157A4524DF6AFE7D342 /* MyApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MyApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A1F54EB7374F5F8AFD816F /* MyLib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMyLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		540690A8E79C4BC6A892A2D8 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7EA0C9DA765F4CCA866C13A5 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = MyLib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9F31A8B7DC644455B56E61AE /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6AD5E8DDC654A08B5FB2779 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/pch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pch.h; path = MyApp/pch.h; sourceTree = SOURCE_ROOT; };
+		E2054757E698492297EFD8CD /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/src/MathLib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = MathLib.cpp; path = MyLib/src/MathLib.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A6CFE5306B549B79317CBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED7AE8391CE4B07942AE667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36EF7945339A46839DC5B1C1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BFCD514E0057445A89060263 /* CMake Rules */,
+				9F31A8B7DC644455B56E61AE /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8932A95B3F204924B4D1A3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25412157A4524DF6AFE7D342 /* MyApp */,
+				44A1F54EB7374F5F8AFD816F /* MyLib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C5A8A7F2C2548C3AF422E75 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BD21BA7B1A74241982C194E /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include/MyLib.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		8CBA4E0EED7E4F69A296F2D1 = {
+			isa = PBXGroup;
+			children = (
+				987DD08462E4479E8863C55A /* MyApp */,
+				36EF7945339A46839DC5B1C1 /* ALL_BUILD */,
+				CEBD3D41766D4D829819E92F /* MyLib */,
+				8932A95B3F204924B4D1A3B0 /* Products */,
+				D20D73E2F4034C128941BA61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		987DD08462E4479E8863C55A /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				D4B982D7A1694B48A955DBCC /* Source Files */,
+				9CA065C624DE43CFB2FC6B50 /* Header Files */,
+				540690A8E79C4BC6A892A2D8 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/CMakeLists.txt */,
+			);
+			name = MyApp;
+			sourceTree = "<group>";
+		};
+		9CA065C624DE43CFB2FC6B50 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6AD5E8DDC654A08B5FB2779 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/pch.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B1DB5C41C23D48A7A3DF2956 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E2054757E698492297EFD8CD /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/src/MathLib.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BFCD514E0057445A89060263 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CEBD3D41766D4D829819E92F /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				8C5A8A7F2C2548C3AF422E75 /* include */,
+				B1DB5C41C23D48A7A3DF2956 /* src */,
+				7EA0C9DA765F4CCA866C13A5 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/CMakeLists.txt */,
+			);
+			name = MyLib;
+			sourceTree = "<group>";
+		};
+		D20D73E2F4034C128941BA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B982D7A1694B48A955DBCC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B1CBF13AC404116AB3ACFFA /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		325CB5F2E5A64DFFB163671C /* MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2375130726034C89A0AD2CC4 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildPhases = (
+				609EEF8F3E474CF7B113D972 /* Sources */,
+				DED7AE8391CE4B07942AE667 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9E71B7C8584817BE7496BC /* PBXTargetDependency */,
+				6148BBE31C4D4339ADC16852 /* PBXTargetDependency */,
+			);
+			name = MyApp;
+			productName = MyApp;
+			productReference = 25412157A4524DF6AFE7D342 /* MyApp */;
+			productType = "com.apple.product-type.tool";
+		};
+		DFF7698D875B4C6BA2C7D8C5 /* MyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF2A91514AC438E8E84C85C /* Build configuration list for PBXNativeTarget "MyLib" */;
+			buildPhases = (
+				27A9CE3B29B84767B3AFF009 /* Sources */,
+				6A6CFE5306B549B79317CBCA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLib;
+			productName = MyLib;
+			productReference = 44A1F54EB7374F5F8AFD816F /* MyLib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241D90DD04D64FA69874E010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 0C5F0728EA2B424D8EC3961C /* Build configuration list for PBXProject "005_listrc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0F220A8FFF924A70AB260D24 /* Debug */,
+				236997B5E9FB41F5B751B06C /* Release */,
+				48032D4367D545F991D5FD4E /* MinSizeRel */,
+				7FD6007FAA7241F283F33F70 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8CBA4E0EED7E4F69A296F2D1;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				8F15A2B9A89C4D74AD09C1F5 /* ALL_BUILD */,
+				325CB5F2E5A64DFFB163671C /* MyApp */,
+				DFF7698D875B4C6BA2C7D8C5 /* MyLib */,
+				5027D7A2D8F347FA96823ADE /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C9EDA1D3DA7E2089579B7F3 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  make -f /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  make -f /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  make -f /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  make -f /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		FB5194FB6E03910AFE478CE1 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A9CE3B29B84767B3AFF009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F5053CD9C4398B084B692 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/src/MathLib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609EEF8F3E474CF7B113D972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECCD5CA12E448DC8807F5C8 /* /Users/kenlee/workspace/cpp/cmake/006_xcode/MyApp/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		154B6ECDBF3D4D40839F052E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5027D7A2D8F347FA96823ADE /* ZERO_CHECK */;
+			targetProxy = 75D62C9FD26748D98E922278 /* PBXContainerItemProxy */;
+		};
+		6148BBE31C4D4339ADC16852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF7698D875B4C6BA2C7D8C5 /* MyLib */;
+			targetProxy = EDF639EF6E604D8488D8A7D9 /* PBXContainerItemProxy */;
+		};
+		A10C207BDBC94571AFDA73E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 325CB5F2E5A64DFFB163671C /* MyApp */;
+			targetProxy = 75E80028314B4A648987524E /* PBXContainerItemProxy */;
+		};
+		BD9E71B7C8584817BE7496BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5027D7A2D8F347FA96823ADE /* ZERO_CHECK */;
+			targetProxy = 89C6779C156045E291E65B79 /* PBXContainerItemProxy */;
+		};
+		E56B81E742634C209A35056A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF7698D875B4C6BA2C7D8C5 /* MyLib */;
+			targetProxy = 3CEEF440967247EBBAA2A488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016074BBFA1C4C558CA1F31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/MyApp.dir/Debug/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib/Debug/libMyLib.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		01F3D5F579CD435991D863C9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0E3F5D26020942E99A67C9D1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2FC7C6ACA0E74037990AE3AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		41593CC20E004EAAB5BA3E4E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5441AFC1F9BB4058A8D4FBFE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/MyApp.dir/MinSizeRel/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib/MinSizeRel/libMyLib.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5D4CFA65F4E2486F844DD1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6A790B2B4380485D85287EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		79B9752C29344955990735A3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/MyApp.dir/RelWithDebInfo/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib/RelWithDebInfo/libMyLib.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7B3C6048F6FD4E30AF1FBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8C52B7A9B98447C8AE2210AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/build;
+			};
+			name = MinSizeRel;
+		};
+		9BD8CBFAFEA04765AC0BD63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0219A338F184970B9476C20 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A1EDEC5CD8254691AE2F36F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AC2F83FA28B24A5FB5210CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyLib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B46E8237744D47D4940D74D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/build;
+			};
+			name = Release;
+		};
+		CE6A7F7A8CF84F79B5083EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/CMakeFiles/MyApp.dir/Release/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/kenlee/workspace/cpp/cmake/006_xcode/MyLib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/MyLib/Release/libMyLib.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = MyApp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DD91DC1B66CE43CDAB88DCCA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E4DD9F8FCB6C42B89376BE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj/build;
+			};
+			name = Debug;
+		};
+		EF5B3B2035F34FA39FF0D483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/kenlee/workspace/cpp/cmake/006_xcode/xcode_prj;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5F0728EA2B424D8EC3961C /* Build configuration list for PBXProject "005_listrc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DD9F8FCB6C42B89376BE39 /* Debug */,
+				B46E8237744D47D4940D74D6 /* Release */,
+				8C52B7A9B98447C8AE2210AD /* MinSizeRel */,
+				0E3F5D26020942E99A67C9D1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13EAA62E90B24CE2A35BEF0F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A790B2B4380485D85287EC4 /* Debug */,
+				5D4CFA65F4E2486F844DD1E2 /* Release */,
+				DD91DC1B66CE43CDAB88DCCA /* MinSizeRel */,
+				01F3D5F579CD435991D863C9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2375130726034C89A0AD2CC4 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016074BBFA1C4C558CA1F31B /* Debug */,
+				CE6A7F7A8CF84F79B5083EE4 /* Release */,
+				5441AFC1F9BB4058A8D4FBFE /* MinSizeRel */,
+				79B9752C29344955990735A3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BF2A91514AC438E8E84C85C /* Build configuration list for PBXNativeTarget "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD8CBFAFEA04765AC0BD63B /* Debug */,
+				AC2F83FA28B24A5FB5210CF8 /* Release */,
+				A1EDEC5CD8254691AE2F36F8 /* MinSizeRel */,
+				2FC7C6ACA0E74037990AE3AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B073AF97CCCC4C248E661E22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3C6048F6FD4E30AF1FBD40 /* Debug */,
+				EF5B3B2035F34FA39FF0D483 /* Release */,
+				A0219A338F184970B9476C20 /* MinSizeRel */,
+				41593CC20E004EAAB5BA3E4E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241D90DD04D64FA69874E010 /* Project object */;
+}
